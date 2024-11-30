@@ -28,12 +28,12 @@
      "deviceType": 3, <br>
      "verificationType": 1, <br>
      "verificationEmailToken": mail_token,} <br> 
-     
-#最后附上一些接口 
-  "login": "https://hfs-be.yunxiao.com/v2/users/sessions", 
-  "userSnapshot": "https://hfs-be.yunxiao.com/v2/user-center/user-snapshot", 
-  "examList": "https://hfs-be.yunxiao.com/v3/exam/list?start=0&limit=100", 
-  "examOverview": "https://hfs-be.yunxiao.com/v3/exam/${examId}/overview", 
-  "examRankInfo": "https://hfs-be.yunxiao.com/v3/exam/${examId}/rank-info", 
-  "answerPicture": "https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/answer-picture?pid=${pid}", 
-  "paperRankInfo": "https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/rank-info", 
+     <br>
+#最后附上一些接口 <br>
+  "login": "https://hfs-be.yunxiao.com/v2/users/sessions",  <br>
+  "userSnapshot": "https://hfs-be.yunxiao.com/v2/user-center/user-snapshot", <br>
+  "examList": "https://hfs-be.yunxiao.com/v3/exam/list?start=0&limit=100", <br>
+  "examOverview": "https://hfs-be.yunxiao.com/v3/exam/${examId}/overview", <br>
+  "examRankInfo": "https://hfs-be.yunxiao.com/v3/exam/${examId}/rank-info", <br>
+  "answerPicture": "https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/answer-picture?pid=${pid}", <br>
+  "paperRankInfo": "https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/rank-info", <br>
