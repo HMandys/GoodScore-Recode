@@ -42,10 +42,13 @@ data = {
 ```
 
 # 接口列表
-- 登录接口: https://hfs-be.yunxiao.com/v2/users/sessions
-- 用户快照接口: https://hfs-be.yunxiao.com/v2/user-center/user-snapshot
-- 考试列表接口: https://hfs-be.yunxiao.com/v3/exam/list?start=0&limit=100
-- 考试概览接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/overview
-- 考试排名接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/rank-info
-- 答题图片接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/answer-picture?pid=${pid}
-- 试卷排名接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/rank-info
+- 登录接口: https://hfs-be.yunxiao.com/v2/users/sessions     
+- 绑定学生接口：https://hfs-be.yunxiao.com/v2/users/bind-student    
+- 匹配学生接口：https://hfs-be.yunxiao.com/v2/users/matched-students     
+- 用户快照接口: https://hfs-be.yunxiao.com/v2/user-center/user-snapshot  
+- 考试列表接口: https://hfs-be.yunxiao.com/v3/exam/list?start=0&limit=100    
+- 考试概览接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/overview    
+- 考试排名接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/rank-info  
+- 答题图片接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/answer-picture?pid=${pid}    
+- 试卷排名接口: https://hfs-be.yunxiao.com/v3/exam/${examId}/papers/${paperId}/rank-info    
+- 试卷题目列表接口：https://hfs-be.yunxiao.com/v3/exam/{self.exam.examId}/papers/{self.paperId}/question-detail  
