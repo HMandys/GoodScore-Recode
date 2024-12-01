@@ -1,11 +1,13 @@
-import os
-import webbrowser
-import time
 import base64
-import json
-import requests
+import os
+import time
+import webbrowser
 from urllib.parse import urlparse, parse_qs, unquote
+
+import requests
+
 import utils
+
 
 def fetch_matched_students(xuehao, student_name):
     url = 'https://hfs-be.yunxiao.com/v2/users/matched-students'
