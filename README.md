@@ -10,7 +10,7 @@
 - `'roleType': '1'`  
 - `'identityType': '1'`  
 - `'identityCode': xuehao`  
-- `'studentName': studentName
+- `'studentName': studentName`   
 
 ## sign_up.py
 通过邮箱注册好分数学生版账号  
